@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build --output public",
+    "build": "next build",
     "dev": "next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
@@ -36,6 +36,6 @@
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
-    "node": "18.17.0"
+    "node": "18"
   }
 }
